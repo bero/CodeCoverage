@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes" ?>
+<test-results total="67" notrun="0" date="11-03-2018" time="16:17:29">
+<test-suite name="TestSplitString" total="5" notrun="0">
+<results>
+<test-case name="TestSplitString.EmptyStringShouldReturnSingleEmptyElement" executed="True" success="True" time="0,000" result="Pass"/>
+<test-case name="TestSplitString.EmptyDelimiterShouldReturnSingleElement" executed="True" success="True" time="0,000" result="Pass"/>
+<test-case name="TestSplitString.StringWithOneDelimiterShouldBeSplitIntoTwoElements" executed="True" success="True" time="0,000" result="Pass"/>
+<test-case name="TestSplitString.StringWithTwoDelimitersOfSameTypeShouldBeSplitIntoThreeElements" executed="True" success="True" time="0,000" result="Pass"/>
+<test-case name="TestSplitString.StringWithMultipleDelimitersOfDifferentTypesShouldBeSplit" executed="True" success="True" time="0,000" result="Pass"/>
+</results>
+</test-suite>
+<test-suite name="TCoverageConfigurationTest" total="45" notrun="0">
+<results>
+<test-case name="TCoverageConfigurationTest.TestPreParsing" executed="True" success="True" time="0,000" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestNoParameters" executed="True" success="True" time="0,049" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestInvalidParameter" executed="True" success="True" time="0,002" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestEnableApiLogging" executed="True" success="True" time="0,000" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestEnableFileLoggingDefaultFile" executed="True" success="True" time="0,000" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestEnableFileLoggingSpecifiedFile" executed="True" success="True" time="0,000" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestOutputDirectoryError" executed="True" success="True" time="0,002" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestOutputDirectory" executed="True" success="True" time="0,000" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestSourcePathFileError" executed="True" success="True" time="0,002" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestSourcePathFileNoExistingFile" executed="True" success="True" time="0,028" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestSourcePathFileFakeDir" executed="True" success="True" time="0,001" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestSourcePathFile" executed="True" success="True" time="0,003" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestSourcePathError" executed="True" success="True" time="0,001" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestSourcePathFakeDir" executed="True" success="True" time="0,002" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestSourcePathSingleDir" executed="True" success="True" time="0,000" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestSourcePathMultipleDir" executed="True" success="True" time="0,000" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestSourceDirectoryError" executed="True" success="True" time="0,002" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestSourceDirectory" executed="True" success="True" time="0,000" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestExecutableParameterEmpty" executed="True" success="True" time="0,003" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestExecutableParameterSingle" executed="True" success="True" time="0,000" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestExecutableParameterMultiple" executed="True" success="True" time="0,000" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestExecutableParameterUnescape" executed="True" success="True" time="0,000" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestUnitFileError" executed="True" success="True" time="0,002" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestUnitFileNoExistingFile" executed="True" success="True" time="0,002" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestUnitFile" executed="True" success="True" time="0,002" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestUnitFileStrippingOfPathAndExtensions" executed="True" success="True" time="0,001" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestUnitError" executed="True" success="True" time="0,001" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestUnitSingle" executed="True" success="True" time="0,000" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestUnitMultiple" executed="True" success="True" time="0,000" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestUnitStrippingOfPathAndExtensions" executed="True" success="True" time="0,000" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestMapFileError" executed="True" success="True" time="0,002" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestMapFile" executed="True" success="True" time="0,000" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestMapFileNoExistingFile" executed="True" success="True" time="0,001" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestExecutableError" executed="True" success="True" time="0,001" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestExecutable" executed="True" success="True" time="0,000" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestExecutableNoExistingFile" executed="True" success="True" time="0,000" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestExcludingFileExtension" executed="True" success="True" time="0,000" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestExcludingFileExtensionMultipleToggling" executed="True" success="True" time="0,000" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestExcludingFileExtensionFromUnitFile" executed="True" success="True" time="0,002" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestIncludingFileExtension" executed="True" success="True" time="0,000" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestIncludingFileExtensionMultipleToggling" executed="True" success="True" time="0,000" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestIncludingFileExtensionFromUnitFile" executed="True" success="True" time="0,002" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestFileExtensionFromUnitFileToggling" executed="True" success="True" time="0,004" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestExcludeSourceMask" executed="True" success="True" time="0,000" result="Pass"/>
+<test-case name="TCoverageConfigurationTest.TestDProj" executed="True" success="True" time="0,012" result="Pass"/>
+</results>
+</test-suite>
+<test-suite name="TClassInfoUnitTest" total="1" notrun="0">
+<r
